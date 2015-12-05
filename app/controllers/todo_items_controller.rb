@@ -6,6 +6,12 @@ class TodoItemsController < ApplicationController
     redirect_to @todo_list
   end
 
+  def destroy
+    @todo_item = @todo_list.todo_items.find(params[:id])
+    @todo_item.destroy
+    redirect_to @todo_list
+  end
+
   private
 
   def set_todo_list
