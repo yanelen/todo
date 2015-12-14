@@ -21,15 +21,18 @@
 
 .title {
   padding-top: 10px;
+  text-decoration: none;
   background-color:transparent;
 }
 
 .title a {
   text-decoration: none;
+  background-color:transparent;
 }
 
 .title a:hover {
-  background-color:transparent;
+  text-decoration: none;
+  background-color:transparent;;
 }
 
 .description {
@@ -37,10 +40,17 @@
   padding-bottom: 10px;
 }
 
+.link {
+  text-decoration: none;
+  background-color:transparent;
+}
+
 .link a {
   text-decoration: none;
+  background-color:transparent;
 }
 
 .link a:hover {
+  text-decoration: none;
   background-color:transparent;
 }
