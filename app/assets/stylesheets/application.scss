@@ -14,6 +14,16 @@
  *= require_self
  */
 
+ body {
+   color: #959a9c;
+   background-color: #c2c9cc;
+   font-family: verdana, arial, helvetica, sans-serif;
+   font-size: 13px;
+   line-height: 18px;
+   background-image: image-url('bg.jpg');
+   background-repeat: no-repeat;
+ }
+
 .jumbotron {
   opacity: 0.8;
   padding: 1px 0 30px 0;
@@ -21,18 +31,11 @@
 
 .title {
   padding-top: 10px;
-  text-decoration: none;
-  background-color:transparent;
-}
-
-.title a {
-  text-decoration: none;
-  background-color:transparent;
 }
 
 .title a:hover {
   text-decoration: none;
-  background-color:transparent;
+  opacity: 0.9;
 }
 
 .description {
@@ -40,17 +43,6 @@
   padding-bottom: 10px;
 }
 
-.link {
-  text-decoration: none;
-  background-color:transparent;
-}
-
-.link a {
-  text-decoration: none;
-  background-color:transparent;
-}
-
 .link a:hover {
   text-decoration: none;
-  background-color:transparent;
 }
