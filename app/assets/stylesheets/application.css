@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+
+.jumbotron {
+  opacity: 0.8;
+}
+
+.todolist {
+  font-size: 13px;
+  padding-bottom: 30px;
+}
