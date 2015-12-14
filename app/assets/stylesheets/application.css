@@ -18,7 +18,18 @@
   opacity: 0.8;
 }
 
-.todolist {
+.title {
+  font-size: 36px;
+  padding: 10px 0 15px 0;
+}
+
+.title:hover {
+  color: #ffffff;
+  text-decoration: none;
+
+}
+
+.description {
   font-size: 13px;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
