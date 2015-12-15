@@ -1,17 +1,8 @@
-<p id="notice"><%= notice %></p>
+<h2 class="title" style="font-size: 36px; font-weight: 700;"><%= @todo_list.title %></h2>
+<div class="description"><%= @todo_list.description %></div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @todo_list.title %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @todo_list.description %>
-</p>
-
-<div id="todo_items_wrapper">
-  <%= render @todo_list.todo_items %>
+<div id="todo_items_container">
+  <h3 class="item"><%= render @todo_list.todo_items %></h3>
   <div id="form">
     <%= render "todo_items/form" %>
   </div>
