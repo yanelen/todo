@@ -67,6 +67,7 @@
 
 #todo_items_container {
   padding: 0 20px 0 20px;
+  width: 100%;
 }
 
 .row {
@@ -74,7 +75,6 @@
   padding: 0 20px 0 20px;
   text-align: left;
   font-size: 15px;
-  float: left;
 }
 
 .delete i {
@@ -87,4 +87,35 @@
   padding-left: 5px;
   width: 80%;
   float: left;
+}
+
+#form {
+  margin-top: 2em;
+  padding: 2% 5%;
+  input[type="text"] {
+    width: 65%;
+    margin-right: 2%;
+    display: inline-block;
+    outline: none;
+    background: rgba(250,250,250,.4);
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    padding: 1em 2em;
+  }
+  input[type="submit"] {
+    background: #c2c9cc;
+    outline: none;
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    width: 30%;
+    display: inline-block;
+    transition: all .4s ease-in-out;
+    cursor: pointer;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+  ::-webkit-input-placeholder { color: #8a8a8a; }
 }
