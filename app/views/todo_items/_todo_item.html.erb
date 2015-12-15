@@ -1,8 +1,8 @@
 <div class="row">
   <div class="delete">
     <%= link_to todo_list_todo_item_path(@todo_list, todo_item.id), method: :delete do %>
-      <i class="fa fa-circle-o"></i>
+      <i style="float:left;" class="fa fa-circle-o"></i>
     <% end %>
   </div>
-  <p class ="content"><%= todo_item.content %></p>
+  <p class ="content" style="float:left;"><%= todo_item.content %></p>
 </div>
