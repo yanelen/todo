@@ -1,9 +1,6 @@
 <% @todo_lists.each do |todo_list| %>
-
-    <h2 class="title" style="font-size: 36px; font-weight: 700;"><%= link_to todo_list.title, todo_list %></h2>
-    <div class="description"><%= todo_list.description %></div>
-    <hr>
-
+  <h2 class="title" style="font-size: 36px; font-weight: 700; text-align: left;"><%= link_to todo_list.title, todo_list %></h2>
+  <hr>
 <% end %>
 
 <div class="link"><%= link_to 'New Todo List', new_todo_list_path %></div>
